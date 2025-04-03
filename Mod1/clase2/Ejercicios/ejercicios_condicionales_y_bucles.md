@@ -44,7 +44,7 @@ switch (expresión) {
 
 Los bucles permiten repetir una acción múltiples veces, lo que es útil para recorrer listas de elementos como arrays.
 
-📌 Ejemplo de sintaxis:
+Ejemplo de sintaxis:
 ```
 for (inicialización; condición; incremento) {
     // Código que se ejecuta en cada iteración
