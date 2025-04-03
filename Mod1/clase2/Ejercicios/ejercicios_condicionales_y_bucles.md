@@ -4,6 +4,56 @@
 Este archivo contiene una serie de ejercicios progresivos en dificultad para practicar estructuras condicionales (`if-else`), `switch-case` y bucles `for` en JavaScript.
 
 ---
+📚 Teoría de apoyo
+
+🔹 Condicionales (if-else)
+
+Las estructuras condicionales permiten ejecutar bloques de código dependiendo de si una condición es verdadera o falsa. Se utilizan para tomar decisiones en la ejecución del programa.
+
+📌 Ejemplo de sintaxis:
+
+if (condición) {
+    // Código a ejecutar si la condición es verdadera
+} else {
+    // Código a ejecutar si la condición es falsa
+}
+
+🔹 Ejemplo: Si un usuario es "Premium", se le aplica un 20% de descuento en su compra.
+
+🔹 Estructura switch-case
+
+La estructura switch se usa cuando hay múltiples casos posibles para una variable y queremos ejecutar diferentes bloques de código según su valor.
+
+Ejemplo de sintaxis:
+```
+switch (expresión) {
+    case valor1:
+        // Código si expresión === valor1
+        break;
+    case valor2:
+        // Código si expresión === valor2
+        break;
+    default:
+        // Código si ninguno de los casos anteriores se cumple
+}
+```
+
+🔹 Ejemplo: Un personaje de un videojuego puede ser "Mago", "Guerrero" o "Arquero", y cada uno tiene una habilidad especial.
+
+🔹 Bucles (for)
+
+Los bucles permiten repetir una acción múltiples veces, lo que es útil para recorrer listas de elementos como arrays.
+
+📌 Ejemplo de sintaxis:
+```
+for (inicialización; condición; incremento) {
+    // Código que se ejecuta en cada iteración
+}
+```
+🔹 Ejemplo: Si tenemos una lista de juegos con sus precios, podemos recorrerla y mostrar cada juego con su respectivo precio.
+
+
+---
 
 ## **Ejercicio 1: Aplicando descuentos según el tipo de usuario** (Nivel: **Básico**)  
 **Descripción:**  
