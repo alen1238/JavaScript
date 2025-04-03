@@ -10,14 +10,14 @@ Este archivo contiene una serie de ejercicios progresivos en dificultad para pra
 
 Las estructuras condicionales permiten ejecutar bloques de código dependiendo de si una condición es verdadera o falsa. Se utilizan para tomar decisiones en la ejecución del programa.
 
-📌 Ejemplo de sintaxis:
-
+Ejemplo de sintaxis:
+```
 if (condición) {
     // Código a ejecutar si la condición es verdadera
 } else {
     // Código a ejecutar si la condición es falsa
 }
-
+```
 🔹 Ejemplo: Si un usuario es "Premium", se le aplica un 20% de descuento en su compra.
 
 🔹 Estructura switch-case
