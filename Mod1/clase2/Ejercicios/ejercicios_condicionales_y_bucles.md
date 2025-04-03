@@ -11,7 +11,7 @@ Este archivo contiene una serie de ejercicios progresivos en dificultad para pra
 Las estructuras condicionales permiten ejecutar bloques de código dependiendo de si una condición es verdadera o falsa. Se utilizan para tomar decisiones en la ejecución del programa.
 
 Ejemplo de sintaxis:
-```
+```javascript
 if (condición) {
     // Código a ejecutar si la condición es verdadera
 } else {
@@ -25,7 +25,7 @@ if (condición) {
 La estructura switch se usa cuando hay múltiples casos posibles para una variable y queremos ejecutar diferentes bloques de código según su valor.
 
 Ejemplo de sintaxis:
-```
+```javascript
 switch (expresión) {
     case valor1:
         // Código si expresión === valor1
@@ -45,7 +45,7 @@ switch (expresión) {
 Los bucles permiten repetir una acción múltiples veces, lo que es útil para recorrer listas de elementos como arrays.
 
 Ejemplo de sintaxis:
-```
+```javascript
 for (inicialización; condición; incremento) {
     // Código que se ejecuta en cada iteración
 }
