@@ -173,7 +173,7 @@ console.log("Lista de frutas:", frutas);
 💡 ¡Estos ejercicios no están resueltos! Intenta resolverlos tú mismo.
 
 ---
-🧠 # Tips para Aprender Mejor los Ciclos y Programar con Éxito
+# 🧠  Tips para Aprender Mejor los Ciclos y Programar con Éxito
 
 🎓 Aprende a Aprender
 
