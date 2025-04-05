@@ -164,7 +164,7 @@ console.log("Lista de frutas:", frutas);
 ```
 
 ---
-## 🎯 Desafíos Extra
+##  Desafíos Extra
 
 1. Haz un programa que genere una cuenta regresiva desde cualquier número hasta 0.
 2. Crea una lista de tareas donde el usuario puede agregar tareas hasta que escriba "terminar".
@@ -173,13 +173,13 @@ console.log("Lista de frutas:", frutas);
 💡 ¡Estos ejercicios no están resueltos! Intenta resolverlos tú mismo.
 
 ---
-# 🧠  Tips para Aprender Mejor los Ciclos y Programar con Éxito
+#  Tips para Aprender Mejor los Ciclos y Programar con Éxito
 
-🎓 Aprende a Aprender
+ Aprende a Aprender
 
 La programación no se memoriza, ¡se practica! Aquí tienes algunas recomendaciones para aprender más eficientemente:
 
-1. 🔁 Practica con pequeñas variaciones
+1.  Practica con pequeñas variaciones
 
 Después de cada ejercicio, cámbiale algo:
 
@@ -189,9 +189,9 @@ Modifica los rangos de los ciclos.
 
 Cambia el mensaje que imprime el programa.
 
-👉 Esto entrena tu flexibilidad mental y te hace comprender cómo y por qué funcionan las cosas.
+Esto entrena tu flexibilidad mental y te hace comprender cómo y por qué funcionan las cosas.
 
-2. 🧩 Divide y vencerás
+2. Divide y vencerás
 
 Si no entiendes un ciclo, divídelo en partes:
 
@@ -203,19 +203,19 @@ Si no entiendes un ciclo, divídelo en partes:
 
 Escribe tus propias preguntas y respóndelas en voz alta o en papel.
 
-3. 💬 Explica tu código
+3.  Explica tu código
 
 Explícale tu código a un amigo, a tu mascota, o incluso en voz alta. Esto se llama la técnica del “rubber duck debugging” y es muy efectiva para encontrar errores y aprender.
 
-4. ✍️ Escribe a mano (de vez en cuando)
+4.  Escribe a mano (de vez en cuando)
 
 Hacer un diagrama de flujo o escribir el ciclo en papel ayuda a memorizar la lógica. ¡No subestimes el poder del lápiz!
 
-5. 🚀 Combina con juegos
+5.  Combina con juegos
 
 Haz tus propios mini-juegos: contador de vidas, adivinanzas, loterías, o simulaciones. ¡El código es tu juguete!
 
-6. 🔍 Usa herramientas visuales
+6.  Usa herramientas visuales
 
 Plataformas como:
 
