@@ -20,14 +20,3 @@ Este proyecto es una mini landing page pensada para que practiquen los conceptos
 1. Clona este repositorio o descarga los archivos.
 2. Abre el archivo `index.html` con tu navegador.
 3. Abre los archivos en tu editor para modificar y experimentar.
-
----
-
-## 🧠 Ejercicios de práctica
-
-### 1. Cambiar el color de fondo del `<body>`
-
-```css
-body {
-  background-color: rgb(255, 255, 200);
-}
