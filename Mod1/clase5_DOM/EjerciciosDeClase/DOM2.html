@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <div id="contenedor">
+        <p>Primer párrafo</p>
+        <p>Segundo párrafo</p>
+    </div>
+</body>
+    <script>
+        let varContenedor = document.getElementById("contenedor");
+        let varSegundoParrafo = varContenedor.children[1];
+        console.log(varSegundoParrafo.textContent);
+    </script>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Document</title>
+</head>
+<body>
+    <input id="nombre" placeholder="Escribe tu nombre">
+    <button id="saludar">Salúdame</button>
+    <p id="mensaje"></p>
+</body>
+
+    <script>
+        document.getElementById("saludar").addEventListener("click", () =>{
+            let nombre = document.getElementById("nombre").value;
+            let mensaje = document.getElementById("mensaje");
+            mensaje.textContent = `!hola, ${nombre}! Bienvenido al concepto DOM`;
+            mensaje.style.fontWeight ="bold";
+        });
+    </script>
+</html>
