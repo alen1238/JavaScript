@@ -124,7 +124,15 @@ const usuario = {
   }
 };
 ```
+Nota: Para actualizar el correo de este objeto en JavaScript, puedes llamar al método `actualizarCorreo` pasando el nuevo correo como argumento. Aquí tienes un ejemplo de cómo hacerlo:
 
+```javascript
+// Llamamos al método actualizarCorreo con el nuevo correo
+usuario.actualizarCorreo("nuevoCorreo@email.com");
+
+// Ahora el correo ha sido actualizado
+console.log(usuario.correo); // Debería mostrar "nuevoCorreo@email.com"
+```
 ---
 
 10. **Crea un objeto `biblioteca`** que contenga un array de libros, cada libro debe ser un objeto con título y autor. Agrega métodos para agregar un libro nuevo y listar todos los libros.
