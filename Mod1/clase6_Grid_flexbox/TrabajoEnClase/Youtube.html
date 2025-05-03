@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(24,24,24);
+            color: white;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        header {
+            background-color: rgb(32,32,32);
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 20px;
+        }
+        header input {
+            padding: 5px;
+            width: 40%;
+            border-radius: 5px;
+            border: none;
+        }
+        .layout {
+            display: flex;
+            flex: 1;
+        }
+        .sidebar {
+            width: 200px;
+            background-color: rgb(32,32,32);
+            display: flex;
+            flex-direction: column;
+            padding: 20px 10px;
+        }
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+        }
+        .sidebar a:hover {
+            background-color: rgb(56,56,56);
+        }
+        .content {
+            flex: 1;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 20px;
+            overflow-y: auto;
+        }
+        .card {
+            background-color: rgb(40,40,40);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            display: block;
+        }
+        .card p {
+            padding: 10px;
+        }
+    </style>
+    <title>MiTube</title>
+</head>
+<body>
+    <header>
+        <div>📹 MiTube</div>
+        <input type="text" placeholder="Search...">
+        <div>🔔 👽</div>
+    </header>
+
+    <div class="layout">
+        <nav class="sidebar">
+            <a href="#">🏠 Inicio</a>
+            <a href="#">🕹️ Shorts</a>
+            <a href="#">✏️ Suscripciones</a>
+            <a href="#">🙆 Tu</a>
+        </nav>
+        <main class="content">
+            <div class="card">
+                <img src="imagenes/hq720.avif">
+                <p>Video 1 - Titulo de muestra</p>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/imagen2.avif">
+                <p>Video 1 - Titulo de muestra</p>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/imagen3.avif">
+                <p>Video 1 - Titulo de muestra</p>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/imagen4.avif">
+                <p>Video 1 - Titulo de muestra</p>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/hq720.avif">
+                <p>Video 1 - Titulo de muestra</p>
+            </div>
+
+            <div class="card">
+                <img src="imagenes/imagen2.avif">
+                <p>Video 1 - Titulo de muestra</p>
+            </div>
+        </main>
+    </div>
+</body>
+</html>
