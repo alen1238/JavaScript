@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peliculas</title>
+</head>
+<body>
+    <h1>Agregar película</h1>
+
+    <label for="titulo">Título de la película:</label>
+    <input type="text" id="titulo" placeholder="Ej: Matrix">
+    <button onclick="enviarPelicula()">Enviar</button>
+
+    <p id="respuesta"></p>
+
+    <script>
+
+        function enviarPelicula(){
+            const titulo = document.getElementById('titulo').value;
+
+            if(!titulo){
+                alert("Por favor, escribe un titulo");
+                return;
+            }
+            fetch('http://localhost:3000/peliculas', {
+                method: 'POST',
+                headers: {
+                    'Content-type': 'application/json'
+                },
+                body: JSON.stringify({titulo})
+            })
+            .then(res => res.json())
+            .then(data => {
+                document.getElementById('respuesta').textContent = JSON.stringify(data);
+            })
+            .catch(error =>{
+                document.getElementById('respuesta').textContent = 'Error al enviar los datos';
+            });
+        }
+    </script>
+</body>
+</html>
