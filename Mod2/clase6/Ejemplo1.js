@@ -9,6 +9,7 @@ mongoose.connect('mongodb://localhost:27017/tienda');
 const zapatoSchema = new mongoose.Schema({
     nombre: {
         type: String,
+        enum: ['hogar', 'tecnologia'],
         required: [true, 'El nombre es obligatorio'],
         minLength: [3, 'El nombre debe tener al menos 3 caracteres']
     },
